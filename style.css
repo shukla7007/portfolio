@@ -1,0 +1,113 @@
+h1{
+    color:rgb(51, 255, 0);
+    
+}
+
+li[value="4"]{
+    color:turquoise;
+}
+
+#red{
+    color:yellow;
+}
+
+ol {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+  }
+
+  body{
+    font-family: 'anta';
+    background-color:black;
+    
+  } 
+
+  div {
+    height: 200px;
+    width: 200px;
+}
+
+#first {
+    background-color: yellow;
+    padding: 20px;
+    border: 20px solid red;
+    margin-left:800px;
+
+   
+}
+#first { 
+    background-color: yellow; 
+    padding: 20px; 
+    border: 20px solid red; 
+    position: relative;
+    right: 0px;
+    top: -500px;
+    text-align:center;
+}
+
+/* Style for the circle */
+#circle {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    background-color:deepskyblue; /* Adjust color as needed */
+    border-radius: 50%; /* This will make it a circle */
+    position:relative;
+    top:50px;
+    padding:20px;
+    text-align: center;
+    text-align: middle;
+    text-align:justify;
+    right:15px;
+    
+}
+#first >div >div {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /* Adjust size as needed */
+    border-right: 50px solid transparent; /* Adjust size as needed */
+    border-bottom: 100px solid rgb(251, 18, 255); /* Adjust size and color as needed */
+    margin: 20px auto; /* Adjust margin for positioning */
+}
+
+img {
+    float:left;
+    padding:10px;
+
+}
+p{
+    text-align:justify;
+}
+
+#circlep{
+    text-align:center;
+}
+
+
+@media (min-width: 319px) and  (max-width: 480px) {
+    body {
+   background-color:blueviolet;
+   }
+   }
+
+   @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+     background-color:black;
+   }
+   }
+   @media (min-width: 1201px) and  (max-width: 1600px) {
+    body {
+     background-color:black;
+   }
+   }
+   
+   @media (min-width:1601px){
+     body{
+       background-color:black;
+     }
+   }
+   
+   .footer{
+    color:aqua;
+    text-align: right;
+   }
